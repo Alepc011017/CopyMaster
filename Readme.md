@@ -244,7 +244,7 @@ CopyMaster está licenciado bajo la **GPL-3.0**. Consulta el archivo `LICENSE` p
 ## Contacto y agradecimientos
 
 - Autor: Alejandro Pérez <alepc011017+github@gmail.com>
-- Repositorio: https://github.com/tuusuario/copymaster
+- Repositorio: https://github.com/Alepc011017/copymaster
 
 Agradecimientos a las librerías y proyectos que hacen este trabajo posible: GTK4, libadwaita, tokio, serde, etc.
 
