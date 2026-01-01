@@ -2,6 +2,8 @@
 
 **CopyMaster — Gestor avanzado de copias para Linux**
 
+Aun en desarrollo, cualquier contribuciony optimización es bienbenida.
+
 ![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue.svg) ![crates.io](https://img.shields.io/badge/crate-copymaster-lightgrey) ![build](https://img.shields.io/badge/build-passing-brightgreen)
 
 CopyMaster es una aplicación para gestionar transferencias de archivos en sistemas Linux, con interfaz gráfica moderna (GTK4 + libadwaita) y una línea de comandos potente. Está diseñada para manejar grandes volúmenes de datos, ofrecer copias paralelas y verificadas, y resolver conflictos de forma interactiva o automática.
