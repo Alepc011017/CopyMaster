@@ -1,0 +1,71 @@
+/* ... estilos existentes ... */
+
+/* NUEVOS ESTILOS PARA DIÁLOGOS DE CONFLICTO */
+.conflict-file-info 
+{   background-color: alpha(@theme_bg_color, 0.5);
+    border-radius: 8px;
+    padding: 12px;
+    margin: 10px 0;
+}
+
+.conflict-actions {
+    margin: 15px 0;
+}
+
+.conflict-action-button {
+    margin: 5px 0;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.conflict-action-button:hover {
+    background-color: alpha(@theme_fg_color, 0.1);
+}
+
+.conflict-remember-section {
+    border-top: 1px solid @borders;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+/* ESTILOS PARA DIÁLOGO DE CONFIGURACIÓN */
+.settings-frame {
+    margin-bottom: 20px;
+    border: 1px solid @borders;
+    border-radius: 8px;
+}
+
+.settings-frame > label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: alpha(@theme_bg_color, 0.5);
+    border-radius: 8px 8px 0 0;
+}
+
+/* INDICADORES DE ESTADO PARA CONFLICTOS */
+.conflict-overwrite {
+    color: @warning_color;
+}
+
+.conflict-skip {
+    color: @theme_fg_color;
+}
+
+.conflict-rename {
+    color: @success_color;
+}
+
+/* BOTONES ESPECÍFICOS PARA ACCIONES DE CONFLICTO */
+.overwrite-button {
+    background-color: alpha(@warning_color, 0.1);
+}
+
+.skip-button {
+    background-color: alpha(@theme_fg_color, 0.1);
+}
+
+.rename-button {
+    background-color: alpha(@success_color, 0.1);
+}

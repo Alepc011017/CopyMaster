@@ -1,0 +1,17 @@
+# data/copymaster.desktop
+[Desktop Entry]
+Type=Application
+Name=CopyMaster
+GenericName=Advanced Copy Manager
+Comment=Administrador de copias avanzado para Linux
+Exec=copymaster --minimized
+Icon=copymaster
+Terminal=false
+StartupNotify=false
+Categories=Utility;FileTools;System;
+Keywords=copy;file;transfer;backup;manager;
+StartupWMClass=copymaster
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=2
+X-KDE-autostart-after=panel
+X-MATE-Autostart-Delay=2

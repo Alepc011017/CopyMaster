@@ -1,0 +1,39 @@
+[package]
+name = "copymaster"
+version = "0.1.0"
+edition = "2021"
+authors = ["Alejandro Pérez <alepc011017+github@gmail.com>"]
+description = "Advanced copy manager for Linux"
+license = "GPL-3.0"
+repository = "https://github.com/tuusuario/copymaster"
+
+[features]
+default = ["gui", "local", "notifications"]
+gui = ["gtk4", "libadwaita", "gdk-pixbuf"]
+local = []
+cli = ["clap"]
+notifications = ["notify-rust"]
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+async-trait = "0.1"
+uuid = { version = "1.0", features = ["v4"] }
+clap = { version = "4.0", optional = true, features = ["derive"] }
+gtk4 = { version = "0.6", optional = true, features = ["v4_6"] }
+libadwaita = { version = "0.4", optional = true }
+gdk-pixbuf = { version = "0.18", optional = true }
+dirs = "4.0"
+nix = "0.26"
+xxhash-rust = "0.8"
+thiserror = "1.0"
+log = "0.4"
+pretty_env_logger = "0.5"
+ctrlc = "3.2"
+num_cpus = "1.16"
+notify-rust = { version = "4.0", optional = true }
+rand = "0.8"
+
+[build-dependencies]
+glib-build-tools = "0.17"

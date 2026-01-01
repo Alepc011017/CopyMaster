@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/copymaster">
+    <!-- Archivos de interfaz de usuario -->
+    <file>ui/main_window.ui</file>
+    <file>ui/queue_panel.ui</file>
+    <file>ui/devices_panel.ui</file>
+    <file>ui/drop_dialog.ui</file>
+    
+    <!-- Estilos CSS -->
+    <file>style.css</file>
+    
+    <!-- Iconos (se añadirán automáticamente si existen) -->
+    <file preprocess="to-pixdata">icons/scalable/copymaster.svg</file>
+    <file>icons/256x256/copymaster.png</file>
+    <file>icons/128x128/copymaster.png</file>
+    <file>icons/64x64/copymaster.png</file>
+    <file>icons/32x32/copymaster.png</file>
+    
+    <!-- Iconos de estado -->
+    <file>icons/32x32/copymaster-active.png</file>
+    <file>icons/32x32/copymaster-paused.png</file>
+    <file>icons/32x32/copymaster-error.png</file>
+  </gresource>
+</gresources>
