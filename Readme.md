@@ -76,7 +76,7 @@ sudo dnf install -y gtk4-devel libadwaita-devel gdk-pixbuf2-devel pkgconfig open
 
 ```bash
 # Clonar
-git clone https://github.com/tuusuario/copymaster.git
+git clone https://github.com/alepc011017/copymaster.git
 cd copymaster
 
 # Compilar con GUI y notificaciones (opcional):
