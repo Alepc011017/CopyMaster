@@ -47,11 +47,7 @@ CopyMaster es una aplicación para gestionar transferencias de archivos en siste
 
 ## Capturas
 
-> Añade capturas en `docs/images/` y referencia aquí con:
 
-```markdown
-![Main window](docs/images/screenshot-main.png)
-```
 
 ---
 
@@ -252,7 +248,3 @@ Agradecimientos a las librerías y proyectos que hacen este trabajo posible: GTK
 
 ---
 
-> ¿Quieres que también: 
-> - añada imágenes de ejemplo en `docs/images/`? 
-> - agregue badges activos (CI, crates.io)? 
-> Dime qué prefieres y lo ajusto.
